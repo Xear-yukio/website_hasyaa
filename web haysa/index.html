@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio hasya cantik</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌟 pretty hasya Wesbite</div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <img src="foto.jpg" alt="Foto Profil" class="profile-img" />
+    <h1>Halo, saya <span class="highlight">Hassya</span></h1>
+    <p>Saya suka sekali membuat hal keren dengan teknologi.</p>
+  </header>
+
+  <!-- Kutipan Inspiratif -->
+  <section class="quote-box reveal">
+    <p id="quote-text">✨ Menyusun kata terbaik...</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <h2>Tentang hasyaa</h2>
+    <p>Saya seorang pelajar di SMK CITRA NEGARA yang suka menjelajahi dunia AI, coding, dan desain visual. Portofolio ini menampilkan beberapa hasil karyaku.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+    <h2>Keahlian</h2>
+    <ul class="skills-list">
+      <li>💻 HTML & CSS</li>
+      <li>💃🏻 Modern Dance</li>
+      <li>🎨 Desain UI/UX</li>
+      <li>🛠️ Dan bisa apa saja</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+    <h2>Proyek</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="ai.jpg" alt="AI Art Generator" class="project-img"/>
+        <h3>🎨 AI Art Generator</h3>
+        <p>Membuat seni dari prompt teks dengan AI.</p>
+      </div>
+      <div class="project-card">
+        <img src="chatbot.jpg" alt="Chatbot Interaktif" class="project-img"/>
+        <h3>💬 Chatbot Interaktif</h3>
+        <p>Bot pintar untuk membantu pengguna secara real-time.</p>
+      </div>
+      <div class="project-card">
+        <img src="dashboard.jpg" alt="Dashboard Data" class="project-img"/>
+        <h3>📈 Dashboard Data</h3>
+        <p>Visualisasi data interaktif dengan JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section reveal">
+    <h2>Galeri Saya</h2>
+    <p>i believe in myself ✨</p>
+    <div class="gallery-grid">
+      <img src="foto 1.jpg" alt="Foto 1">
+      <img src="foto 2.jpg" alt="Foto 2">
+      <img src="foto 3.jpg" alt="Foto 3">
+      <img src="foto 4.jpg" alt="Foto 4">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h2>Kontak</h2>
+    <p>Ingin bekerja sama atau tanya-tanya dengan saya? Kirim pesan langsung:</p>
+    <form class="contact-form" action="mailto:halo@aikreatif.com" method="POST" enctype="text/plain">
+      <input type="text" name="nama" placeholder="Nama" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="pesan" rows="5" placeholder="Pesan..." required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HasyaCantik. Web ini dibuat sepenuh haati dan perasaan</p>
+  </footer>
+
+  <!-- Backsound -->
+  <audio id="backsound" loop>
+    <source src="Style.mp3" type="audio/mpeg" />
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <button id="sound-toggle">🔊</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
